@@ -1,0 +1,14 @@
+.venv
+__pycache__
+2023_aeroblade.egg-info
+playground.ipynb
+data
+output*
+cache
+weights
+.vscode
+debug
+lightning_logs
+tmp
+aeroblade_output
+aeroblade_data
