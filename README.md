@@ -29,7 +29,7 @@ Note the following:
 - All reconstructions are saved in `data/reconstructions`, in unique directories for each configuration.
 
 ### Data
-Our data can be downloaded from [Zenodo](https://zenodo.org/TBD). Extract the `.zip` file and place the `data` directory inside the root directory of this repository.
+Our data can be downloaded from [Zenodo](https://zenodo.org/doi/10.5281/zenodo.10997234). Extract the `.zip` file and place the `data` directory inside the root directory of this repository.
 
 **Generated Images**
 All generated images are readily available in `data/raw/generated`. For Stable Diffusion and Kandinsky, the directory name also contains the CLIP model used to extract the prompts, e.g., `CompVis-stable-diffusion-v1-1-ViT-L-14-openai`. We also provide the extracted prompts in `data/raw/prompts`.
