@@ -2,6 +2,10 @@
 [Jonas Ricker](https://jonasricker.com), [Denis Lukovnikov](https://informatik.rub.de/ml/people/lukovnikov/), [Asja Fischer](https://informatik.rub.de/fischer/)    
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
 
+<p align="center">
+<img src="media/header.png" width="70%" alt="header"> 
+</p>
+
 ## Setup
 Create a virtual environment and run
 ```
