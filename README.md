@@ -6,6 +6,10 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
 <img src="media/header.png" width="70%" alt="header"> 
 </p>
 
+<p align="right">
+<sup><sub><a href="https://twitter.com/casafant">Why the elephant?</a></sub></sup>
+</p>
+
 ## Setup
 Create a virtual environment and run
 ```
