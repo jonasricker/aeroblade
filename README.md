@@ -1,13 +1,9 @@
-# [CVPR2024] AEROBLADE: Training-Free Detection of Latent Diffusion Images Using Autoencoder Reconstruction Error
+# [[CVPR2024] AEROBLADE: Training-Free Detection of Latent Diffusion Images Using Autoencoder Reconstruction Error](https://openaccess.thecvf.com/content/CVPR2024/html/Ricker_AEROBLADE_Training-Free_Detection_of_Latent_Diffusion_Images_Using_Autoencoder_Reconstruction_CVPR_2024_paper.html)
 [Jonas Ricker](https://jonasricker.com), [Denis Lukovnikov](https://informatik.rub.de/ml/people/lukovnikov/), [Asja Fischer](https://informatik.rub.de/fischer/)    
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
 
 <p align="center">
 <img src="media/header.png" width="70%" alt="header"> 
-</p>
-
-<p align="right">
-<sup><sub><a href="https://twitter.com/casafant">Why the elephant?</a></sub></sup>
 </p>
 
 ## Setup
