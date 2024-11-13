@@ -32,7 +32,14 @@ class Distance(abc.ABC):
         files_a = [Path(f).name for f in ds_a.img_paths]
         files_b = [Path(f).name for f in ds_b.img_paths]
         if files_a != files_b:
-            raise ValueError("ds_a and ds_b should contain matching files.")
+            files_a_stems = [Path(f).stem for f in ds_a.img_paths]
+            files_b_stems = [Path(f).stem for f in ds_b.img_paths]
+            if files_a_stems != files_b_stems:
+                raise ValueError("ds_a and ds_b should contain matching files.")
+            else:
+                warnings.warn(
+                    "ds_a and ds_b contain files with different file endings. Make sure that is does not cause issues, e.g., you should not have different images with the same name but different file endings."
+                )
 
         result = self._compute(
             ds_a=ds_a,
