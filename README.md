@@ -20,6 +20,7 @@ If you simply want to use AEROBLADE for detection, run
 python scripts/run_aeroblade.py --files-or-dirs path/to/img.png path/to/dir
 ```
 Calling the script without any arguments will use the images in `example_images`.
+Note that if you provide a directory, all images must have the same dimensions.
 By default, it computes the reconstructions using the AEs from Stable Diffusion 1, Stable Diffusion 2, and Kandinsky 2.1 and measures the distance using the second LPIPS layer, which performed best in our experiments. Use `-h` to learn more about the available options.
 
 The computed distances are printed and saved to `aeroblade_output/distances.csv`. Note that we save the negative distances, which is why the best AE is denoted by `max`.
